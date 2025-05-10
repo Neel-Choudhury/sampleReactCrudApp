@@ -57,6 +57,9 @@ export const Create = () => {
         {/* 
          since majority of inputs are same this way is better to minize jsx 
          plus in future if any new inputs are to be added like country then this you don't have to write different jsx again all you'd need is to update the array to include an other collection
+
+         TODO: For better form and form features use react hook form npm install react-hook-form
+         for full documentation along with videos visit https://react-hook-form.com/get-started
         */}
         {
           inputCollection.map(input => (
